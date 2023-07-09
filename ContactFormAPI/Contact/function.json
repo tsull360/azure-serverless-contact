@@ -17,13 +17,11 @@
       "name": "res"
     },
     {
-      "name": "$return",
       "type": "sendGrid",
-      "direction": "out",
-      "apiKey" : "MySendGridKey",
-      "to": "{ToEmail}",
-      "from": "{FromEmail}",
-      "subject": "SendGrid output bindings"
+      "name": "message",
+      "apiKey": "SendGrid",
+      "to": "<Insert To Here>",
+      "direction": "out"
     }    
   ]
 }
